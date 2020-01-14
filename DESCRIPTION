@@ -1,0 +1,17 @@
+Package: EZtools
+Type: Package
+Title: Package regroupant des fonctions qui me sont utiles au quotidien
+Version: 0.1.0
+Authors@R: 
+    person(given = "Timothe",
+           family = "Beuchon",
+           role = c("aut","cre"),
+           email = "beuchon.timothe@gmail.com")
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    base
+RoxygenNote: 7.0.2
