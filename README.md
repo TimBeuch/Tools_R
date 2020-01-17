@@ -1,12 +1,3 @@
----
-title: "Untitled"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-
 # Preambule
 
 Ce package rassemble des fonctions qui me sont utiles au quotidien.
