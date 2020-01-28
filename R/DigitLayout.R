@@ -15,11 +15,6 @@ I <- function(x,
               digits = NULL,
               ...){
 
-if(class(x) %in% c("factor",
-                   "character")){
-  stop("x doit etre numerique")
-} else {}
-
   if(is.null(digits) == TRUE){
     x = x
   } else if (is.numeric(digits) == TRUE |
