@@ -14,8 +14,24 @@
 I <- function(x,
               digits = NULL,
               ...){
+
+if(class(x) %in% c("factor",
+                   "character")){
+  stop("x doit etre numerique")
+} else {}
+
+  if(is.null(digits) == TRUE){
+    x = x
+  } else if (is.numeric(digits) == TRUE |
+             is.integer(digits) == TRUE){
+    x = round(x,
+              digits = digits)
+  } else{
+    stop("digits doit etre un chiffre")
+  }
+
   x = format(x,
-             digits = digits,
+             # digits = 2,
              trim = TRUE,
              drop0trailing = TRUE,
              scientific = FALSE,
